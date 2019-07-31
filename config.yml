@@ -24,6 +24,8 @@ module:
     min: 0.56.0
   mounts:
     - source:           dist
+      target:           assets/dist
+    - source:           dist
       target:           static/docs/4.3/dist
     - source:           site/content
       target:           content
